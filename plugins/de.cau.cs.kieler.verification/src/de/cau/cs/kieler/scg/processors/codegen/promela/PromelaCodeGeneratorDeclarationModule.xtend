@@ -104,6 +104,9 @@ class PromelaCodeGeneratorDeclarationModule extends PromelaCodeGeneratorModuleBa
         
         // Add _GO signal
         appendIndentedLine('''bool _GO = 1;''')
+
+        //Add _TERM signal
+        appendIndentedLine('''bool _TERM = 0;''')
     }
     
     override generateDone() {

@@ -31,7 +31,8 @@ class VerificationSystemProvider implements ISystemProvider {
             "system/de.cau.cs.kieler.sccharts.verification.nusmv.kico",
             "system/de.cau.cs.kieler.sccharts.verification.spin.kico",
             "system/de.cau.cs.kieler.sccharts.netlist.promela.kico",
-            "system/de.cau.cs.kieler.sccharts.netlist.smv.kico"
+            "system/de.cau.cs.kieler.sccharts.netlist.smv.kico",
+            "system/de.cau.cs.kieler.scl.netlist.promela.kico"
         ]
     }
     
